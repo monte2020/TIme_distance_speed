@@ -1,4 +1,4 @@
-x = input("What variable do you not know? s- for speed. t- for time. d- for distance.")
+x = input("What variable do you want to know? s- for speed. t- for time. d- for distance.")
 if "s" == x:
     d = float(input("What is your distance? "))
     t = float(input("What is your time? "))
@@ -13,6 +13,6 @@ elif "d" == x:
     t = float(input("What is your time? "))
     print (str(s*t) + "m is your distance") 
 else:
-    print("Error input invalet")
+    print("Error! Input variables for speed, distance, or time.")
     
 #dts = 0
